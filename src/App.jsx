@@ -48,10 +48,11 @@ function App(){
     }
     return(
         <div>
-        <h1>Computer:You</h1>
-        <h2>Round:{Round}</h2>
-        <h2>{computerScore}:{userScore}</h2>
-        <h1>{winner}</h1>
+            <h1>Rock Paper Scissor</h1>
+        <h2>Computer:You</h2>
+        <h3>Round:{Round}</h3>
+        <h3>{computerScore}:{userScore}</h3>
+        <h2>{winner}</h2>
         {emojisData[computerMove]||"?"}:{emojisData[userMove]||"?"}
         <div>
             <button onClick={()=>handleClick("Rock")}>🪨</button>
